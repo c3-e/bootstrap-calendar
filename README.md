@@ -1,3 +1,13 @@
+C3 Bootstrap Calendar
+===
+C3 Boostrap Calendar clones and customizes [Bootstrap Calendar](https://github.com/Serhioromano/bootstrap-calendar). It is currently used in Customer Engagement product as default dashboard.
+
+In C3 Boostrap Calendar, we customsize event show behavior to display only start day and end day of an event. In contrast, Boostrap Calendar displays each day of an event.
+
+[calendar.js](https://github.com/c3-e/c3ui/blob/master/assets/vendor/bootstrap-calendar/js/calendar.js) in UI framework is copied from this repository. When upgrading calendar, we should upgrade this repository first.
+
+It's possible that we may use C3 dashboard instead of calendar as the default dashboard in Customer Engagement product in the furture. In that case, we will get rid of this respository as well as Bootstrap Calendar.
+
 Bootstrap Calendar
 ===
 
